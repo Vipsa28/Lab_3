@@ -2,7 +2,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    background-image: linear-gradient(to right, #7710c1 0%, #2575fc, #25fcbb 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +11,7 @@ body {
 }
 
 form {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(248, 213, 166, 0.9);
     padding: 20px;
     border-radius: 8px;
     width: calc(100% - 40px);
@@ -25,6 +25,7 @@ form {
 .text h1, .text h4 {
     margin: 0;
     color: #333;
+    text-align: center;
 }
 
 .form-group {
@@ -36,7 +37,7 @@ form {
 
 .form-group label {
     font-weight: 600;
-    color: #555;
+    color: #000000;
 }
 
 .form-group input[type="text"],
@@ -44,7 +45,7 @@ form {
     width: 100%;
     padding: 8px;
     margin-top: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #768035;
     border-radius: 4px;
     box-sizing: border-box;
 }
